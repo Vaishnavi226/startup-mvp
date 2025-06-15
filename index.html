@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unstop - Unlock Your Career</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="nav-logo">
+          <a href="#" class="logo">
+            <span class="logo-icon">un</span><span class="logo-text">stop</span>
+          </a>
+        </div>
+
+        <div class="nav-search">
+          <i class="fas fa-search"></i>
+          <input type="text" placeholder="Search Opportunities" />
+        </div>
+
+        <ul class="nav-menu">
+          <li><a href="#internships">Internships</a></li>
+          <li><a href="#jobs">Jobs</a></li>
+          <li><a href="#competitions">Competitions</a></li>
+          <li><a href="#mentorships">Mentorships</a></li>
+          <li><a href="#practice">Practice</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle"
+              >More <i class="fas fa-chevron-down"></i
+            ></a>
+            <ul class="dropdown-menu">
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li><a href="#help">Help</a></li>
+            </ul>
+          </li>
+        </ul>
+
+        <div class="nav-actions">
+          <button class="theme-toggle" id="themeToggle">
+            <i class="fas fa-moon"></i>
+          </button>
+          <button class="btn-login">Login</button>
+          <button class="btn-host"><i class="fas fa-plus"></i> Host</button>
+          <button class="btn-business">
+            <i class="fas fa-briefcase"></i> For Business
+          </button>
+        </div>
+
+        <div class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+
+    <main class="main-content">
+      <section class="hero-section">
+        <div class="hero-container">
+          <div class="hero-left">
+            <h1 class="hero-title">Unlock Your Career</h1>
+            <p class="hero-description">
+              Explore opportunities from across the globe to grow, showcase
+              skills, gain CV points & get hired by your dream company.
+            </p>
+
+            <div class="testimonial">
+              <div class="testimonial-avatar">
+                <div class="avatar-circle">
+                  <span class="avatar-text">A</span>
+                </div>
+              </div>
+              <div class="testimonial-content">
+                <span class="testimonial-name">Aisha</span>
+                <span class="testimonial-text">Just Went Unstop Pro!</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-right">
+            <div class="opportunity-grid">
+              <div class="opportunity-card internships-card">
+                <div class="card-header">
+                  <h3>Internships</h3>
+                  <div class="card-subtitle">
+                    <span>Gain</span>
+                    <span>Practical</span>
+                    <span>Experience</span>
+                  </div>
+                </div>
+                <div class="card-visual">
+                  <div class="lightbulb-icon">
+                    <i class="fas fa-lightbulb"></i>
+                  </div>
+                  <div class="person-image">
+                    <img
+                      src="/placeholder.svg?height=100&width=80"
+                      alt="Intern"
+                    />
+                  </div>
+                  <div class="company-logos">
+                    <div class="logo-badge cv">CV</div>
+                    <div class="logo-badge hp">HP</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="opportunity-card mentorships-card">
+                <div class="card-header">
+                  <h3>Mentorships</h3>
+                  <div class="card-subtitle">
+                    <span>Guidance</span>
+                    <span>From Top Mentors</span>
+                  </div>
+                </div>
+                <div class="card-visual">
+                  <div class="mentor-image">
+                    <img
+                      src="/placeholder.svg?height=120&width=90"
+                      alt="Mentor"
+                    />
+                  </div>
+                  <div class="mentor-badge">
+                    <span>2000+ Mentors</span>
+                    <div class="rating">★★★★★</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="opportunity-card jobs-card">
+                <div class="card-header">
+                  <h3>Jobs</h3>
+                  <div class="card-subtitle">
+                    <span>Explore</span>
+                    <span>Diverse Careers</span>
+                  </div>
+                </div>
+                <div class="card-visual">
+                  <div class="job-image">
+                    <img
+                      src="/placeholder.svg?height=120&width=90"
+                      alt="Professional"
+                    />
+                  </div>
+                  <div class="company-icons">
+                    <i class="fab fa-google"></i>
+                    <i class="fab fa-amazon"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div class="opportunity-card practice-card">
+                <div class="card-header">
+                  <h3>Practice</h3>
+                  <div class="card-subtitle">
+                    <span>Refine</span>
+                    <span>Skills Daily</span>
+                  </div>
+                </div>
+                <div class="card-visual">
+                  <div class="laptop-image">
+                    <img
+                      src="/placeholder.svg?height=80&width=120"
+                      alt="Laptop"
+                    />
+                  </div>
+                  <div class="practice-icon">
+                    <i class="fas fa-code"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div class="opportunity-card competitions-card">
+                <div class="card-header">
+                  <h3>Competitions</h3>
+                  <div class="card-subtitle">
+                    <span>Battle</span>
+                    <span>For Excellence</span>
+                  </div>
+                </div>
+                <div class="card-visual">
+                  <div class="trophy-icon">
+                    <i class="fas fa-trophy"></i>
+                  </div>
+                  <div class="competition-elements">
+                    <div class="medal">🏆</div>
+                    <div class="star">⭐</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="opportunity-card more-card">
+                <div class="card-header">
+                  <div class="more-icon">
+                    <i class="fas fa-th"></i>
+                  </div>
+                  <h3>More</h3>
+                </div>
+                <div class="card-visual">
+                  <div class="more-icons">
+                    <i class="fas fa-graduation-cap"></i>
+                    <i class="fas fa-chart-line"></i>
+                    <i class="fas fa-users"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="users-section">
+        <div class="users-container">
+          <h2>Who's using Unstop?</h2>
+          <div class="users-grid">
+            <div class="user-card students-card">
+              <div class="user-content">
+                <h3>Students and Professionals</h3>
+                <p>
+                  <strong>Unlock Your Potential:</strong> Compete, Build Resume,
+                  Grow and get Hired!
+                </p>
+              </div>
+              <div class="user-visual">
+                <img src="/placeholder.svg?height=100&width=80" alt="Student" />
+                <div class="user-icons">
+                  <i class="fas fa-code"></i>
+                  <i class="fas fa-trophy"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="user-card companies-card">
+              <div class="user-content">
+                <h3>Companies and Recruiters</h3>
+                <p>
+                  <strong>Discover Right Talent:</strong> Hire, Engage, and
+                  Brand Like Never Before!
+                </p>
+              </div>
+              <div class="user-visual">
+                <img
+                  src="/placeholder.svg?height=100&width=80"
+                  alt="Recruiter"
+                />
+                <div class="company-badges">
+                  <i class="fab fa-google"></i>
+                  <i class="fab fa-amazon"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="user-card colleges-card">
+              <div class="user-content">
+                <h3>Colleges</h3>
+                <p>
+                  <strong>Bridge Academia and Industry:</strong> Empower
+                  Students with Real-World Opportunities!
+                </p>
+              </div>
+              <div class="user-visual">
+                <img src="/placeholder.svg?height=100&width=80" alt="College" />
+                <div class="college-icons">
+                  <i class="fas fa-graduation-cap"></i>
+                  <i class="fas fa-university"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="know-how-section">
+        <button class="know-how-btn" id="knowHowBtn">
+          Know How <i class="fas fa-chevron-down"></i>
+        </button>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
